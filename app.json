@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "TOSS 2019",
+    "description": "This project is really great.",
+    "slug": "toss2019",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.4.0",
+    "orientation": "portrait",
+    "icon": "./Images/logo_TOSS_android.png",
+    "splash": {
+      "image": "./Images/SplashScreen/SplashScreen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.CentralesupelecSports.toss2019",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to help users locate their position on the campus - Cette application utilise la localisation pour aider les utilisateurs à se repérer sur le campus"
+      },
+      
+      "config": {
+        "googleMapsApiKey": "AIzaSyDfq7B47W9IZWpqUFZBsLTjCsO1XEdQqYo"
+      }
+      
+    },
+    "android": {
+      "package": "com.CentralesupelecSports.toss2019",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        
+        "com.anddoes.launcher.permission.UPDATE_COUNT",
+       
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "com.htc.launcher.permission.READ_SETTINGS",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "com.majeur.launcher.permission.UPDATE_BADGE",
+        "com.sec.android.provider.badge.permission.READ",
+        "com.sec.android.provider.badge.permission.WRITE",
+        "com.sonyericsson.home.permission.BROADCAST_BADGE"
+      ],
+      "versionCode": 6
+    }
+  }
+}
